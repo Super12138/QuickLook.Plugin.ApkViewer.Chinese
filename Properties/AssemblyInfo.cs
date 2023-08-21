@@ -6,9 +6,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("QuickLook.Plugin.ApkViewer")]
-[assembly: AssemblyDescription("Android package plugin for QuickLook")]
+[assembly: AssemblyDescription("QuickLook Android 包预览插件")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CaNheo")]
+[assembly: AssemblyCompany("Super12138, CaNheo")]
 [assembly: AssemblyProduct("QuickLook.Plugin.ApkViewer.Chinese")]
 [assembly: AssemblyCopyright("Copyright © 2023")]
 [assembly: AssemblyTrademark("")]
