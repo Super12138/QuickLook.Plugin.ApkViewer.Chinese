@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              Background="{DynamicResource MainWindowBackground}"
-             mc:Ignorable="d" d:DesignWidth="450" FontFamily="Segoe UI">
+             mc:Ignorable="d" d:DesignWidth="450" FontFamily="Microsoft YaHei">
 
     <UserControl.Resources>
         <ResourceDictionary>
@@ -15,7 +15,7 @@
             <Style x:Key="CommonStyle" TargetType="Control">
                 <Setter Property="Height" Value="30"/>
                 <Setter Property="FontSize" Value="14"/>
-                <Setter Property="FontFamily" Value="Segoe UI"/>
+                <Setter Property="FontFamily" Value="Microsoft YaHei"/>
                 <Setter Property="Foreground" Value="{DynamicResource WindowTextForeground}"/>
             </Style>
 
@@ -73,15 +73,15 @@
 
         <StackPanel Name="labels" Grid.Column="1" Margin="5,0"
                     HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Label Content="Application name:" Style="{StaticResource StaticLabel}"/>
-            <Label Content="Package name:"     Style="{StaticResource StaticLabel}"/>
-            <Label Content="Version name:"     Style="{StaticResource StaticLabel}"/>
-            <Label Content="Version code:"     Style="{StaticResource StaticLabel}"/>
-            <Label Content="Min SDK:"          Style="{StaticResource StaticLabel}"/>
-            <Label Content="Target SDK:"       Style="{StaticResource StaticLabel}"/>
-            <Label Content="Support screens:"  Style="{StaticResource StaticLabel}"/>
-            <Label Content="Support ABIs:"     Style="{StaticResource StaticLabel}" Name="lbAbis" />
-            <Label Content="Package size:"     Style="{StaticResource StaticLabel}"/>
+            <Label Content="应用名称：" Style="{StaticResource StaticLabel}"/>
+            <Label Content="应用包名"     Style="{StaticResource StaticLabel}"/>
+            <Label Content="版本名称："     Style="{StaticResource StaticLabel}"/>
+            <Label Content="版本代码"     Style="{StaticResource StaticLabel}"/>
+            <Label Content="Min SDK："          Style="{StaticResource StaticLabel}"/>
+            <Label Content="Target SDK："       Style="{StaticResource StaticLabel}"/>
+            <Label Content="支持屏幕："  Style="{StaticResource StaticLabel}"/>
+            <Label Content="支持 ABI:"     Style="{StaticResource StaticLabel}" Name="lbAbis" />
+            <Label Content="应用大小："     Style="{StaticResource StaticLabel}"/>
         </StackPanel>
 
         <StackPanel Name="textboxs" Grid.Column="2" VerticalAlignment="Top" Margin="5,0,10,0">

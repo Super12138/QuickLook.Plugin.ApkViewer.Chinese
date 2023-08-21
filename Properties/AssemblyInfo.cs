@@ -9,8 +9,8 @@ using System.Windows;
 [assembly: AssemblyDescription("Android package plugin for QuickLook")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CaNheo")]
-[assembly: AssemblyProduct("QuickLook.Plugin.ApkViewer")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyProduct("QuickLook.Plugin.ApkViewer.Chinese")]
+[assembly: AssemblyCopyright("Copyright © 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

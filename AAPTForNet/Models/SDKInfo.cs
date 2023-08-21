@@ -39,7 +39,8 @@ namespace AAPTForNet.Models {
             "Android11", // API level 30
             "Android12",
             "Android12L",
-            "Android13"
+            "Android13",
+            "Android14 (Upside Down Cake)"
         };
 
         private static readonly string[] AndroidVersionCodes = {
@@ -76,7 +77,8 @@ namespace AAPTForNet.Models {
             "11",    // API level 30
             "12",
             "12",
-            "13"
+            "13",
+            "14"
         };
 
         public string APILever { get; }
@@ -116,7 +118,7 @@ namespace AAPTForNet.Models {
             if (APILever.Equals("0") && Version.Equals("0") && CodeName.Equals("0"))
                 return AndroidCodeNames[0];
 
-            return $"API Level {APILever} " +
+            return $"API 级别 {APILever} " +
                 $"{(Version == AndroidCodeNames[0] ? $"({AndroidCodeNames[0]} - " : $"(Android {Version} - ")}" +
                 $"{CodeName})";
         }

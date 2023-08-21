@@ -72,7 +72,7 @@ namespace QuickLook.Plugin.ApkViewer {
         private class ErrorContent : System.Windows.Controls.Label {
             public ErrorContent() {
                 FontSize = 16;
-                Content = "Can not load package.";
+                Content = "无法加载此包";
                 Foreground = System.Windows.Media.Brushes.White;
                 VerticalAlignment = VerticalAlignment.Center;
                 HorizontalAlignment = HorizontalAlignment.Center;
