@@ -77,8 +77,8 @@
             <Label Content="应用包名"     Style="{StaticResource StaticLabel}"/>
             <Label Content="版本名称："     Style="{StaticResource StaticLabel}"/>
             <Label Content="版本代码"     Style="{StaticResource StaticLabel}"/>
-            <Label Content="Min SDK："          Style="{StaticResource StaticLabel}"/>
-            <Label Content="Target SDK："       Style="{StaticResource StaticLabel}"/>
+            <Label Content="最低 SDK："          Style="{StaticResource StaticLabel}"/>
+            <Label Content="目标 SDK："       Style="{StaticResource StaticLabel}"/>
             <Label Content="支持屏幕："  Style="{StaticResource StaticLabel}"/>
             <Label Content="支持 ABI:"     Style="{StaticResource StaticLabel}" Name="lbAbis" />
             <Label Content="应用大小："     Style="{StaticResource StaticLabel}"/>
@@ -122,7 +122,7 @@
             </Image.Style>
         </Image>
 
-        <GroupBox x:Name="panelPermission" Header="Permissions" VerticalAlignment="Top"
+        <GroupBox x:Name="panelPermission" Header="权限" VerticalAlignment="Top"
                   BorderBrush="{DynamicResource WindowTextForeground}" 
                   Foreground="{DynamicResource WindowTextForeground}" 
                   BorderThickness="1" Margin="10" Height="150" 

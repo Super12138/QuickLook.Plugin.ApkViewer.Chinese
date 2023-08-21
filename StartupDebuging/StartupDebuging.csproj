@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>StartupDebuging</RootNamespace>
     <AssemblyName>StartupDebuging</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -152,12 +153,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AAPTForNet\AAPTForNet.csproj">
-      <Project>{22aa131d-dba0-445c-b790-fdfd951a1655}</Project>
+      <Project>{22AA131D-DBA0-445C-B790-FDFD951A1655}</Project>
       <Name>AAPTForNet</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\QuickLook.Common\QuickLook.Common.csproj">
-      <Project>{85fdd6ba-871d-46c8-bd64-f6bb0cb5ea95}</Project>
-      <Name>QuickLook.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
