@@ -8,7 +8,7 @@ using System.Windows;
 [assembly: AssemblyTitle("QuickLook.Plugin.ApkViewer")]
 [assembly: AssemblyDescription("QuickLook Android 包预览插件")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Super12138, CaNheo")]
+[assembly: AssemblyCompany("CaNheo, Super12138")]
 [assembly: AssemblyProduct("QuickLook.Plugin.ApkViewer.Chinese")]
 [assembly: AssemblyCopyright("Copyright © 2023")]
 [assembly: AssemblyTrademark("")]
