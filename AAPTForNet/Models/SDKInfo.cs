@@ -39,8 +39,9 @@ namespace AAPTForNet.Models {
             "Android11", // API level 30
             "Android12",
             "Android12L",
-            "Android13",
-            "Android14 (Upside Down Cake)"
+            "Android13 (Tiramisu)",
+            "Android14 (Upside Down Cake)",
+            "Android15 (Vanilla Ice Cream)"
         };
 
         private static readonly string[] AndroidVersionCodes = {
@@ -78,7 +79,8 @@ namespace AAPTForNet.Models {
             "12",
             "12",
             "13",
-            "14"
+            "14",
+            "15"
         };
 
         public string APILever { get; }
